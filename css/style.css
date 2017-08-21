@@ -1,0 +1,54 @@
+
+body {margin:0 auto;overflow:hidden;}  
+
+/*=============第一页=============*/	
+
+.canvas {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	vertical-align: baseline;
+	position: absolute;
+	z-index: -1;
+}
+
+.nav{
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	z-index: 30;
+	top: 40%;
+	left: 42%;
+	right: 30%;
+}
+
+.header .nav a.wv { 
+	text-decoration:none;
+	width: 40%; 
+	height: 10%; 
+	display: block; 
+	text-align: center;		/*水平居中*/
+	cursor: pointer;
+	float: left;/*左浮动*/
+	font: 'microsoft yahei';
+	color: #1d7eb8;
+}
+
+.header .nav p.bt { 
+	text-decoration: none;
+	width: 40%; 
+	height: 10%; 
+	display: block; 
+	text-align: center;		/*水平居中*/
+	cursor: pointer;
+	margin-top: 67%;
+	float: bottom;/*左浮动*/
+	font: 'microsoft yahei';
+	color: #fff;
+}
+
+.header .nav a.wv:hover { 
+	align: center;
+	color: #fff;
+	transition-duration: 0.5s;
+}
